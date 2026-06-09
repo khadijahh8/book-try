@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="login.css" />
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+  <div class="container">
+    <div class="left-section">
+      <h1>WELCOME</h1>
+      <img src="images/icon.png" alt="Girl reading illustration" />
+    </div>
+
+    <div class="right-section">
+      <h2>HELLO!<br>WE ARE GLAD TO SEE YOU :)</h2>
+
+      <div class="social-login">
+        <button class="google"><img src="images/google.png" alt=""> Sign up with Google</button>
+        <button class="social"><img src="images/facbook.png" alt=""></button>
+        <button class="social"><img src="images/twitter.png" alt=""></button>
+      </div>
+
+      <div class="divider">
+        <hr><span>or</span><hr>
+      </div>
+
+      <form id="signupForm">
+
+        <div class="input-row">
+          <input type="text" id="name" placeholder="Name" required>
+          <input type="email"   id="email"placeholder="Email address" required>
+        </div>
+        <div class="input-row">
+          <input type="password"  id="password" placeholder="Password" required>
+          <input type="password" id="repeatPassword" placeholder="Repeat password" required>
+        </div>
+
+        <div class="checkbox-row">
+          <input type="checkbox" id="agree">
+          <label for="agree">I agree <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+        </div>
+
+        <button type="submit" class="signup-btn">Sign up</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+
+</body>
+</html>
